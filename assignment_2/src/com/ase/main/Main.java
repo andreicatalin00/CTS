@@ -11,7 +11,7 @@ public class Main {
         System.out.println(((Account) account).calculate());
         System.out.println(account.getMonthlyRate());
 
-        //This throws a custom error
+        //This throws a custom error ValueError
         //AccountInterface account2 = new Account(-12, 12230);
 
     }
