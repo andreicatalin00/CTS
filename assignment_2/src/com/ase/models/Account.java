@@ -65,7 +65,7 @@ public class Account implements AccountInterface {
 
     @Override
     public String toString() {
-        return "Account{" +
+        return "Account {" +
                 "loanValue=" + loanValue +
                 ", rate=" + rate +
                 "%, daysActive=" + daysActive +
