@@ -1,0 +1,22 @@
+1. The class should be included in a package;
+2. The 2nd line has extra white spaces;
+3. The attributes have inconsistent naming types: CamelCase and with -;
+4. On line 30 the toString method should be overwritten using override;
+5. Line 33 has extra spacing;
+6. Line 35, random variable is assigned but never used;
+7. Line 40 has extra spacing;
+8. Line 45 has no space between the = sign;
+9. Line 46 no spacing;
+10. Line 47 has no spacing and the comments are placed in a weird possition;
+11. In the constructor the value validation should be done in a separate setValue method;
+12. Line 58 its better to use this.loan_value to make it clear that loan_value is an attribute of the Old_Account class;
+13. The attributes should be private and accessed through getters and setters;
+
+Solution:
+1. We create packages;
+2. We create an interface for the Old_Account class
+3. We write the interface
+4. We write the class:
+    4.1. We define the attributes using camelCase
+    4.2. We override the toString method
+    4.3. We write the account type as an enum
